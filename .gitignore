@@ -1,0 +1,18 @@
+## Latex
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.nav
+*.synctex.gz
+*.snm
+*.fdb_latexmk
+*.pdf
