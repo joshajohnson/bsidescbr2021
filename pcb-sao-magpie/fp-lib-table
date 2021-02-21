@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name drawing)(type KiCad)(uri ${KIPRJMOD}/library/graphics/drawing.pretty)(options "")(descr ""))
+)
