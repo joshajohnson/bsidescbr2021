@@ -5545,7 +5545,7 @@
     (property "Value" "WS2812B" (id 1) (at 235.9661 107.8293 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (id 2) (at 236.22 121.92 0)
+    (property "Footprint" "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" (id 2) (at 236.22 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" (id 3) (at 237.49 123.825 0)
@@ -5999,7 +5999,7 @@
       (reference "D2") (unit 1) (value "ORG") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/7fb69442-52e3-4c1a-9bf4-99a4ba0d16ef"
-      (reference "D3") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D3") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/3e3ddb51-22ac-4836-b03c-bf28224ba3b4"
       (reference "D4") (unit 1) (value "PWR") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -6298,6 +6298,9 @@
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/fe8bac96-294b-4465-89d9-e8229f662807"
       (reference "#PWR0196") (unit 1) (value "GND") (footprint "")
     )
+    (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/3489d562-055c-4481-af91-dd3d92d6b69b"
+      (reference "#PWR0197") (unit 1) (value "+3V3") (footprint "")
+    )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/6a6f2cb1-836a-4eb7-9560-2c25b1ed34e2"
       (reference "C5") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -6359,64 +6362,64 @@
       (reference "C33") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/5f738c9c-1639-4e2e-b066-98ac121b7c21"
-      (reference "D6") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D6") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/e2dfe95f-8037-4989-824f-602376c18d4d"
-      (reference "D7") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D7") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/8c5a1746-fcd6-46e3-ac57-3ad73fbefa1b"
-      (reference "D8") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D8") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/67cbd563-2c5a-4216-98dc-b58b4efe643c"
-      (reference "D9") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D9") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/8d48d32a-ada1-437c-a709-ded7909fb42d"
-      (reference "D10") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D10") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/07e336a8-93c4-485a-882a-6e6e4804cb60"
-      (reference "D11") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D11") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/154256d0-f08b-4c94-ba46-bed865644c5d"
-      (reference "D12") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D12") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/58c6147d-3656-4ff5-9021-82f135dc3d52"
-      (reference "D13") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D13") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/b05f62fd-53d2-474a-9ad8-1c238a22f93c"
-      (reference "D14") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D14") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/6b39f67f-2ca6-42fb-b929-dc3bc9d5f954"
-      (reference "D15") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D15") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/de2b556c-18c7-4fbd-b35a-3efe53a8651c"
-      (reference "D16") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D16") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/80300823-ece2-4bcc-ae54-c63fa090e136"
-      (reference "D17") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D17") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/79c6e6b0-f4e4-4486-b789-5661387ba461"
-      (reference "D18") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D18") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/5a9d3c1b-0a54-4ec7-b2cf-eb0079784320"
-      (reference "D19") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D19") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/190f07e5-9d6c-4ddb-a657-5bc9ca51fed0"
-      (reference "D20") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D20") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/022b41ed-01de-4a67-b9f4-899efbd6736f"
-      (reference "D21") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D21") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/a300473a-124f-4f35-8cbb-733e46919c56"
-      (reference "D22") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D22") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/5f29541c-157c-45f7-9b90-7c7ab31cae56"
-      (reference "D23") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D23") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/d545a5a1-8325-476c-a3f1-169c17007c4e"
-      (reference "D24") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D24") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/7aa666b3-8e0c-4a54-a304-c2c4b2ef497c"
-      (reference "D25") (unit 1) (value "WS2812B") (footprint "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
+      (reference "D25") (unit 1) (value "WS2812B") (footprint "ehd:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm")
     )
     (path "/79222c86-a946-4b0f-a90e-aa13cf3bd29e/b0fc9718-f9a5-4e23-8f4e-47696537b0c2"
       (reference "U6") (unit 1) (value "SN74LVC1T45DCK") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
