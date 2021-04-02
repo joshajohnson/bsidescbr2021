@@ -1,0 +1,8 @@
+Reference, Quantity, Value, Footprint, MPN, Manufacturer, DNP
+C1 ,1,1u,Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder,CL31B105KOFNNNE,Samsung Electro-Mechanics,
+D1 ,1,LED,LED_THT:LED_D5.0mm,L513SRD-C,American Opto Plus LED,
+J1 ,1,SAO,Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical,10129382-904001BLF,Amphenol ICC (FCI),
+R1 ,1,1K,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,RMCF1206JT1K00 ,Stackpole Electronics Inc,
+R2 ,1,470K,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,RMCF1206JT470K,Stackpole Electronics Inc,
+R3 ,1,330R,Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder,RMCF1206JT330R,Stackpole Electronics Inc,
+U1 ,1,555,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,TLC555,Texas Instruments,

@@ -385,7 +385,7 @@
       "idf": "",
       "netlist": "iCE40-fpga.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "blinky-bowtie.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -398,6 +398,7 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
       "intersheets_ref_show": false,
@@ -411,9 +412,15 @@
     "meta": {
       "version": 0
     },
-    "net_format_name": "Pcbnew",
+    "net_format_name": "KiCad",
+    "ngspice": {
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0
+    },
     "page_layout_descr_file": "",
-    "plot_directory": "./outputs/",
+    "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,

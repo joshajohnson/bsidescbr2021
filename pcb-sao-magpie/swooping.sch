@@ -149,6 +149,7 @@ F 0 "LOGO1" H 5900 7437 50  0000 C CNN
 F 1 "Josh-Details" H 5900 7346 50  0000 C CNN
 F 2 "josh-logos:josh-details" H 5900 7200 50  0001 C CNN
 F 3 "~" H 5900 7200 50  0001 C CNN
+F 4 "DNP" H 5900 7200 50  0001 C CNN "DNP"
 	1    5900 7200
 	1    0    0    -1  
 $EndComp
@@ -160,6 +161,7 @@ F 0 "LOGO4" H 5900 7887 50  0000 C CNN
 F 1 "Josh-Logo" H 5900 7796 50  0000 C CNN
 F 2 "josh-logos:josh-johnson-logo-8_6x1_5" H 5900 7650 50  0001 C CNN
 F 3 "~" H 5900 7650 50  0001 C CNN
+F 4 "DNP" H 5900 7650 50  0001 C CNN "DNP"
 	1    5900 7650
 	1    0    0    -1  
 $EndComp
@@ -171,6 +173,8 @@ F 0 "R1" H 4720 3046 50  0000 L CNN
 F 1 "1K" H 4720 2955 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4580 3000 50  0001 C CNN
 F 3 "~" H 4650 3000 50  0001 C CNN
+F 4 "RMCF1206JT1K00 " H 4650 3000 50  0001 C CNN "MPN"
+F 5 "Stackpole Electronics Inc" H 4650 3000 50  0001 C CNN "Manufacturer"
 	1    4650 3000
 	1    0    0    -1  
 $EndComp
@@ -182,6 +186,8 @@ F 0 "R2" H 4720 3446 50  0000 L CNN
 F 1 "470K" H 4720 3355 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4580 3400 50  0001 C CNN
 F 3 "~" H 4650 3400 50  0001 C CNN
+F 4 "RMCF1206JT470K" H 4650 3400 50  0001 C CNN "MPN"
+F 5 "Stackpole Electronics Inc" H 4650 3400 50  0001 C CNN "Manufacturer"
 	1    4650 3400
 	1    0    0    -1  
 $EndComp
@@ -193,6 +199,8 @@ F 0 "R3" H 5920 3646 50  0000 L CNN
 F 1 "330R" H 5920 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5780 3600 50  0001 C CNN
 F 3 "~" H 5850 3600 50  0001 C CNN
+F 4 "RMCF1206JT330R" H 5850 3600 50  0001 C CNN "MPN"
+F 5 "Stackpole Electronics Inc" H 5850 3600 50  0001 C CNN "Manufacturer"
 	1    5850 3600
 	1    0    0    -1  
 $EndComp
@@ -204,6 +212,8 @@ F 0 "D1" V 5889 3833 50  0000 R CNN
 F 1 "LED" V 5798 3833 50  0000 R CNN
 F 2 "LED_THT:LED_D5.0mm" H 5850 3950 50  0001 C CNN
 F 3 "~" H 5850 3950 50  0001 C CNN
+F 4 "L513SRD-C" H 5850 3950 50  0001 C CNN "MPN"
+F 5 "American Opto Plus LED" H 5850 3950 50  0001 C CNN "Manufacturer"
 	1    5850 3950
 	0    -1   -1   0   
 $EndComp
@@ -215,6 +225,8 @@ F 0 "C1" H 4765 3846 50  0000 L CNN
 F 1 "1u" H 4765 3755 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4688 3650 50  0001 C CNN
 F 3 "~" H 4650 3800 50  0001 C CNN
+F 4 "CL31B105KOFNNNE" H 4650 3800 50  0001 C CNN "MPN"
+F 5 "Samsung Electro-Mechanics" H 4650 3800 50  0001 C CNN "Manufacturer"
 	1    4650 3800
 	1    0    0    -1  
 $EndComp
@@ -226,6 +238,8 @@ F 0 "J1" H 6750 3850 50  0000 L CNN
 F 1 "SAO" H 6750 3750 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 6950 3750 50  0001 C CNN
 F 3 "" H 6950 3750 50  0001 C CNN
+F 4 "10129382-904001BLF" H 6950 3600 50  0001 C CNN "MPN"
+F 5 "Amphenol ICC (FCI)" H 6950 3600 50  0001 C CNN "Manufacturer"
 	1    6950 3600
 	1    0    0    -1  
 $EndComp
@@ -237,6 +251,7 @@ F 0 "LOGO2" H 6450 7886 50  0000 C CNN
 F 1 "OSHW_FMask" H 6450 7795 50  0000 C CNN
 F 2 "josh-logos:OSHW_Logo_3.6x3.6_F.Mask" H 6450 7500 50  0001 C CNN
 F 3 "~" H 6450 7500 50  0001 C CNN
+F 4 "DNP" H 6450 7500 50  0001 C CNN "DNP"
 	1    6450 7500
 	1    0    0    -1  
 $EndComp
@@ -248,6 +263,8 @@ F 0 "U1" H 5100 3900 50  0000 L CNN
 F 1 "555" H 5100 3800 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5400 3650 50  0001 C CNN
 F 3 "" H 5400 3650 50  0001 C CNN
+F 4 "TLC555" H 5400 3400 50  0001 C CNN "MPN"
+F 5 "Texas Instruments" H 5400 3400 50  0001 C CNN "Manufacturer"
 	1    5400 3400
 	1    0    0    -1  
 $EndComp
