@@ -35,7 +35,7 @@
 		Workflow
 		\begin{itemize}
 			\item Requirements
-			\item Locating Resources / Refrence Designs
+			\item Locating Resources / Reference Designs
 			\item Schematic Capture
 			\item Parts of a PCB
 			\item Printed Circuit Board Layout
@@ -77,7 +77,7 @@ Depending on the objective of your design, there are a number of requirements / 
 
 %----------------------------------------------------------------------------------------
 \begin{frame}
-\frametitle{Locating Resources / Refrence Designs}
+\frametitle{Locating Resources / Reference Designs}
 With requirements in hand, we can now start searching for suitable parts.\\
 Evalulation boards are a great place to start, as they provide working hardware, documentation, and example code if applicable.\\[10pt]
 \begin{columns}
@@ -175,8 +175,7 @@ Evalulation boards are a great place to start, as they provide working hardware,
 		\item Check Gerbers were exported correctly
 		\item Zip up Gerbers
 		\item Upload to manufacturer
-		\item Choose PCB options (colour, surface finish)
-		\item For assembly, include a pick and place file
+		\item Choose PCB options (quantity, colour, surface finish)
 	\end{itemize}
 	
 	\column{0.49\textwidth}
@@ -185,6 +184,7 @@ Evalulation boards are a great place to start, as they provide working hardware,
 		\item Export BOM from Schematic
 		\item Upload to supplier
 		\item Confirm package size is correct
+		\item Confirm availability before ordering boards!
 	\end{itemize}
 	
 \end{columns}
@@ -201,7 +201,7 @@ You have all the parts, but how to put them together?
 \begin{itemize}
 	\item Development Boards - point to point or wired through a breadboard
 	\item Through Hole - solder with a soldering iron
-	\item Surface Mount - reflow with a stencil and solder paste or solder with an iron
+	\item Surface Mount - reflow with a stencil and solder paste, or solder with an iron
 	\item All - ask your PCB manufacturer to do it for you (even in small volumes)
 \end{itemize}
 \vspace{-5mm}
@@ -229,7 +229,7 @@ You have all the parts, but how to put them together?
 		\item Adafruit M0 Feather, Microphone, WS2812 (Neopixel) strip, MPU6050 IMU.
 		\item If things don't work (like the IMU), easy to remove.
 		\item Pros: Great for prototyping.
-		\item Cons: Challenging to meet mechanical requirements.
+		\item Cons: Challenging to meet mechanical requirements, fiddly to assemble.
 	\end{itemize}
 	\column{0.49\textwidth}
 	\begin{figure}
@@ -245,7 +245,7 @@ You have all the parts, but how to put them together?
 \begin{columns}
 	\column{.5\textwidth}
 	\begin{itemize}
-		\item Ideal for: Non space constrained / low volume designs.
+		\item Ideal for: Non space constrained / low volume designs / prototyping.
 		\item Replaced wires on breadboard with traces on PCB.
 		\item Identical wiring and firmware to breadboard prototype.
 		\item Four unique parts, low risk of PCB design errors.
@@ -329,7 +329,7 @@ You have all the parts, but how to put them together?
 		\item If designed correctly, compatiable with prototype firmware.
 		\item Higher risk of design errors, especially if designed after midnight...
 		\item Pros: Guaranteed to suit mechanical requirements, easier / cheaper to produce in volume.
-		\item Cons: More time required to assemble and bring up prototypes, harder to troubleshoot issues.
+		\item Cons: More time required to design, assemble and bring up prototypes, harder to troubleshoot issues.
 	\end{itemize}
 	\column{0.49\textwidth}
 	\begin{figure}
@@ -388,7 +388,7 @@ You have all the parts, but how to put them together?
 	\column{.5\textwidth}
 	\begin{itemize}
 		\item Double sided reflow assembly using a solder paste stencil.
-		\item Required reflow oven, stencil, solder paste, hot air gun, and soldering iron.
+		\item Required reflow oven, stencil, solder paste, hot air, microscope, and soldering iron.
 		\item Used the "Interactive HTML BOM" tool to help identify part locations.
 		\item Bootloader flashed using external programmer, then firmware via USB.
 		\item Numerous hardware issues requiring flying wires, along with bootloader issues made initial bringup take three days.
@@ -429,9 +429,9 @@ You have all the parts, but how to put them together?
 	\end{figure}
 
 	\column{0.49\textwidth}
-	\vspace{5mm}
 	\begin{figure}
-		\includegraphics[width=\linewidth]{images/vna.jpg}
+		\includegraphics[width=0.825\linewidth]{images/vna.jpg}
+		\includegraphics[width=0.825\linewidth]{images/rf-sig-gen.jpg}
 	\end{figure}
 \end{columns}
 \end{frame}
@@ -440,8 +440,8 @@ You have all the parts, but how to put them together?
 \begin{frame}
 \frametitle{Questions?}
 Slides and supporting documentation: \url{github.com/joshajohnson/bsidescbr2021}\\[10pt]
-README contains all KiCad source files, images, and links if you want to learn more.\\[10pt]
-I have lots of PCBs, please say hello!\\[10pt]
+Repo contains all KiCad source files, images, and links if you want to learn more.\\[10pt]
+Please say hello!\\[10pt]
 
 Twitter: @\textunderscore joshajohnson\\
 BSidesCBR Slack: josh\\
