@@ -85,7 +85,7 @@ Evalulation boards are a great place to start, as they provide working hardware,
 		\vspace{-7mm}
 		\begin{itemize}
 			\item Adafruit / Sparkfun
-			\item OSHW (GitHub, Hackaday.io)
+			\item Open Source Hardware (GitHub, Hackaday.io)
 			\item Manufacturer Evaluation Boards
 			\item Application Notes
 			\item Datasheet
@@ -151,9 +151,9 @@ Evalulation boards are a great place to start, as they provide working hardware,
 		\item Place connectors and mounting holes
 		\item Place electronic components
 		\item Route critical nets, power, then everything else
+		\item Run design rule checks (DRC)
 		\item Add decorative features
 		\item Review in 3D viewer / check mechanical fit
-		\item Run design rule checks (DRC)
 		\item Export Gerbers
 	\end{itemize}
 	
@@ -369,7 +369,7 @@ You have all the parts, but how to put them together?
 		\item Two layer board, signals and power pour on bottom, ground pour on top.
 		\item Primarily 0603 passives and leadless IC's.
 		\item Double sided assembly - LEDs and microphone on front, remainder on back.
-		\item Complex board outline and artwork iimported from Inkscape.
+		\item Complex board outline and artwork imported from Inkscape.
 		\item Fully 3D modeled, allowing design of the mounting mechanism and identification of part interference.
 	\end{itemize}
 	\column{0.49\textwidth}
@@ -441,10 +441,19 @@ You have all the parts, but how to put them together?
 \frametitle{Questions?}
 Slides and supporting documentation: \url{github.com/joshajohnson/bsidescbr2021}\\[10pt]
 Repo contains all KiCad source files, images, and links if you want to learn more.\\[10pt]
-Please say hello!\\[10pt]
 
-Twitter: @\textunderscore joshajohnson\\
-BSidesCBR Slack: josh\\
-Email: josh@joshajohnson.com\\
+\begin{columns}
+	\column{.4\textwidth}
+	\ Please say hello!\\[10pt]
+	\ Twitter: @\textunderscore joshajohnson\\
+	\ BSidesCBR Slack: josh\\
+	\ Email: josh@joshajohnson.com\\
+
+	\column{0.59\textwidth}
+	\vspace{-8mm}
+	\begin{figure}
+		\includegraphics[width=0.925\linewidth]{images/josh-mugshot.jpg}
+	\end{figure}
+\end{columns}
 \end{frame}
 \end{document} 
