@@ -23,12 +23,12 @@ In each of the project folders, you will find the below files:
 - `outputs/assembly.html` is a "Human Pick and Place" file which will help you hand assemble the board.
 - `outputs/bom.csv` is the bill of materials required to populate the boards. I have not fully specified the resistors and capacitors for the integrated PCB.
 
-### Resources:   
-[Digikey KiCad Series](https://www.youtube.com/watch?v=vaCVh2SAZY4) 
-[KiCad PCB Design Walkthrough](https://www.youtube.com/watch?v=C7-8nUU6e3E)
-[PCB Design in Reverse](https://www.youtube.com/watch?v=CV68US8gZMk)
-[PCB Design Tutorial](https://alternatezone.com/electronics/files/PCBDesignTutorialRevA.pdf)    
-[Chris Gammell / Contextual Electronics](https://www.youtube.com/user/contextualelectronic/videos)   
-[100 Hardware Design Tips](https://www.youtube.com/watch?v=ZpMvKJzZk90&list=PLXvLToQzgzddPKq_txEXNe0pxaSHqPtMO)    
-[PCB Art](http://www.andrewsowa.com/blog/2017/3/19/creating-the-benchoff-nickel) 
-[Interactive HTML BOM](https://github.com/openscopeproject/InteractiveHtmlBom)
+## Resources:   
+- [Digikey KiCad Series](https://www.youtube.com/watch?v=vaCVh2SAZY4)
+- [KiCad PCB Design Walkthrough](https://www.youtube.com/watch?v=C7-8nUU6e3E)
+- [PCB Design in Reverse](https://www.youtube.com/watch?v=CV68US8gZMk)
+- [PCB Design Tutorial](https://alternatezone.com/electronics/files/-PCBDesignTutorialRevA.pdf)
+- [Chris Gammell / Contextual Electronics](https://www.youtube.com/user/-contextualelectronic/videos)
+- [100 Hardware Design Tips](https://www.youtube.com/watch?v=ZpMvKJzZk90&-list=PLXvLToQzgzddPKq_txEXNe0pxaSHqPtMO)
+- [PCB Art](http://www.andrewsowa.com/blog/2017/3/19/creating-the-benchoff-nickel) 
+- [Interactive HTML BOM](https://github.com/openscopeproject/InteractiveHtmlBom)
